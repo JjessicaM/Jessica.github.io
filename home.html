@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/home.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Kranky|Princess+Sofia" rel="stylesheet">
+        <script type="text/javascript" src="JavaScrip/menu_line.js"></script>
+        <script type="text/javascript" src="JavaScrip/animation.js"></script>
+    </head>
+    <body class="ready">
+        
+        <div class="wrapper" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>    
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/marlene.alcaraz.9"><p class="face">F</p></a></li>
+                <li><a href="https://github.com/JjessicaM" class=""><p class="git">G</p></a></li>
+                <li><a href="https://www.instagram.com/alc_mar/?hl=en" class=""><p class="inst">I</p></a></li>
+            </ul>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <nav>
+                <a href="home.html" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#about" onclick="closeNav()"><span>About me</span></a>
+                <a href="#portafolio" onclick="closeNav()">Portafolio</a>
+                <a href="#skills" onclick="closeNav()">Skills</a>
+                <a href="#contact" onclick="closeNav()">Contact me</a>
+            </nav>
+        </div>
+        <div class="usual-nav"></div>
+         <div><img id="flec" src="./images/sola.png" alt="Example" width="20px"></div>
+        <div class="parallax">
+            <div>
+                <h2 id="about">About me</h2>
+                <h1>My name is Jessica Marlene Alcaraz Hernandez, but you can call me Marlene. I from Guadalajara, Jalisco, México and I have a degree in Communication Sciences.<br>Right now I’m taking a course in Web & App Development in Vancouver, Canada. So far away from home and I can say It’s hard to be that far but at the same time it’s exciting to thing vvwhere you’re going to be after finish the experience. After all for me life means experiences.</h1>
+            </div>
+        </div>
+        <div class="parallax_portafolio">
+            <h2 id="portafolio">Portafolio</h2>
+            <img id="size_pic" src="images/pg_comp.png" alt="Example">
+            <img id="size_pic1" src="images/tel_app.png" alt="Example">
+            <img id="size_pic2" src="images/tarjetas_lap.png" alt="Example">
+            <div><img id="flec" src="./images/sola.png" alt="Example" width="20px"></div>
+        </div>
+        <div class="parallax_portafolio2">
+            <img id="sec-pic" src="images/chema.png" alt="Example">
+            <img id="sec-pic1" src="images/chooseitmoc.png" alt="Example">
+            <p class="for_video">Video Edition</p>
+            <video controls src="images/video1.mp4"></video>
+            <video controls src="images/video2.mp4"></video>
+        </div>
+        <div class="parallax_skills">
+            <h3 id="skills">Skills</h3>
+            <div>
+                <ul class="ulclass">
+                    <li><img src="images/ai.png"><p>80%</p></li>
+                    <li><img src="images/au.png"><p>80%</p></li>
+                    <li><img src="images/pr.png"><p>80%</p></li>
+                    <li><img src="images/ps.png"><p>80%</p></li>
+                </ul>
+            </div>
+            <div>
+                 <ul class="secul">
+                    <li><img src="images/and.png"><p>60%</p></li>
+                    <li><img src="images/c.png"><p>30%</p></li>
+                    <li><img src="images/javapic.png"><p>50%</p></li>
+                    <li><img src="images/objtc.png"><p>30%</p></li>
+                    <li><img src="images/htmlpic.png"><p>60%</p></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="parallax_end">
+            <h4 id="contact">Contac me</h4>
+            <div>
+                <form id="form-style" method="post">
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <p>Comments:</p>
+                    <textarea class="new-in" name="message" placeholder="Enter your message"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        </div>
+        <footer>
+            <p>Jessica Marlene Alcaraz Hernández<br>Communication degree</p>
+        </footer>
+    </body>
+    
+</html>
